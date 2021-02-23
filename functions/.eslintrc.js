@@ -23,6 +23,8 @@ module.exports = {
   plugins: ['@typescript-eslint', 'import'],
   rules: {
     quotes: ['error', 'single'],
+    'no-unused-vars': ['warn'],
+    'prefer-const': ['warn'],
     'object-curly-spacing': ['error', 'always'],
     'quote-props': ['error', 'as-needed'],
     'require-jsdoc': [

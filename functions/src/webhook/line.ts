@@ -1,4 +1,4 @@
-import { region, logger } from 'firebase-functions';
+import { logger, region } from 'firebase-functions';
 const { https } = region('asia-east2');
 
 const lineWebhook = https.onRequest((request, response) => {
